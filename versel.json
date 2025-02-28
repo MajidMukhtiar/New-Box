@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "wsgi.py",
+      "src": "migrate_mongo.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "wsgi.py"
+      "dest": "migrate_mongo.py"
     }
   ]
 }
