@@ -6,7 +6,13 @@ from bson.objectid import ObjectId
 app = Flask(__name__)
 
 # Connect to MongoDB
-client = MongoClient("mongodb://localhost:27017/")
+# client = MongoClient("mongodb://localhost:27017/")
+
+MONGO_URI = "mongodb+srv://<username>:<password>@clustername.mongodb.net/?retryWrites=true&w=majority"
+
+# Connect to MongoDB Atlas
+client = MongoClient(MONGO_URI)
+
 db = client["ecommerce_db"]
 
 # 📌 Ensure database and collections are created
