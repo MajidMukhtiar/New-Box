@@ -8,7 +8,8 @@ app = Flask(__name__)
 # Connect to MongoDB
 # client = MongoClient("mongodb://localhost:27017/")
 
-MONGO_URI = "mongodb+srv://<username>:<password>@clustername.mongodb.net/?retryWrites=true&w=majority"
+MONGO_URI = "mongodb+srv://majidmukhtiarp:<mongodbmongodb110>@carshopflaskapp.b9yre.mongodb.net/?retryWrites=true&w=majority&appName=CarShopFlaskApp"
+
 
 # Connect to MongoDB Atlas
 client = MongoClient(MONGO_URI)
