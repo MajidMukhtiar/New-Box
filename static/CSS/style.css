@@ -1,0 +1,150 @@
+/* ✅ General Styles */
+body {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ✅ Matching Header & Footer */
+.navbar, .footer {
+    background: rgba(68, 66, 66, 0.8);
+    backdrop-filter: blur(5px);
+}
+
+.navbar-brand, .navbar-nav .nav-link, .footer a {
+    color: white !important;
+    font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link:hover, .footer a:hover {
+    color: orange !important;
+}
+
+/* ✅ Content Layout */
+.content {
+    padding-top: 100px;
+    flex: 1;
+    text-align: center;
+}
+
+/* ✅ Welcome Note */
+.welcome-note {
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 80px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* ✅ Table Styling */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+/* ✅ Buttons */
+.home-btn {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-sizing: content-box;
+}
+
+.home-btn:hover {
+    background-color: orange;
+    color: black;
+}
+
+/* ✅ Footer */
+.footer {
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+    margin-top: auto;
+}
+
+.footer a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+
+header, footer {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+#check {
+
+
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+}
+#total-sales, #total-orders, #tprice, #cartt {
+
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+}
+
+#ap {
+
+
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+}
+
+#total-sales, #total-orders {
+
+color: black;
+
+
+}

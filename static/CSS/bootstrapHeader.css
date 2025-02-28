@@ -1,0 +1,20 @@
+  .navbar-brand img {
+            height: 50px;
+        }
+        .navbar-nav .nav-link {
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        .search-box {
+            max-width: 300px;
+        }
+        .icon-btn {
+            border: none;
+            background: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .icon-btn:hover {
+            color: #007bff;
+        }
